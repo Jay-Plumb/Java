@@ -1,4 +1,7 @@
 import java.util.Arrays;
+/*
+Analysis: Log N (divide in half)
+*/
 public class BinarySearch {
 
 	public static int rank(int key, int[] a) {
