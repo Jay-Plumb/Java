@@ -1,1 +1,1 @@
-All Java work within this repository 
+Java work within this repository 
