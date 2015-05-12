@@ -1,0 +1,7 @@
+We will have a set of N objects 0 - N
+Union: Connect two objects
+Find/connected query: Is there a path connecting the two objects?
+
+QuickFind:
+Find is easy as we compare id values
+Connected/Union: Harder as we have to merge ids
