@@ -1,7 +1,8 @@
 public class QuickFindUF {
 	// Using an array as the datastructure
 	private int[] id;
-
+	// Initialize 
+	// N
 	public QuickFindUF(int N) {
 		id = new int[N];
 		for(int i = 0; i < N; i++)
@@ -9,11 +10,12 @@ public class QuickFindUF {
 	}
 
 	// Find/Connected 
+	// 1
 	public boolean connected(int p, int q) {
 		return id[p] == id[q];
 	} 
 
-	// N^2
+	// N 
 	public void union(int p, int q) {
 		// Get the id
 		int pid = id[p];
